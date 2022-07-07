@@ -1,6 +1,6 @@
 # RootCanal
 
-This repository contains the files and results of the experiments in RootCanal paper at CHES 2022.
+This repository contains the files and results of the experiments in RootCanal paper at TCHES 2022.
 
 ## Organization
 
