@@ -1,0 +1,4 @@
+address,instruction,function,stage/unit
+out of processor 00000ca0,"sb a5,0(a0)",subBytes_masked,"SoC Interconnect,not found,"
+out of processor 000009dc,"sb a5,0(a4)",addRoundKey_masked,"SoC Interconnect,not found,"
+out of processor 00000000 (000009d8 flushed),"andi a5,a5,255",addRoundKey_masked,"SoC Interconnect,not found,"
