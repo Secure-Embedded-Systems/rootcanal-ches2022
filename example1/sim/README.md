@@ -1,7 +1,10 @@
 ## Simulation
 We used Cadence Xcelium to generate vcd files. 
+
 test_skivav.v is the testbench used for generating the power traces. 
+
 The C code used for the experiment is in software/ folder. 
+
 tvla_1k_key0_keyf.csv contains the test vectors given to the simulation. Each line has the group index (for TVLA), the key, the input, and the output of the algorithm. 
 
 The testbench does the following:
