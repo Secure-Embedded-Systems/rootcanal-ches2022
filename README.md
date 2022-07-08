@@ -11,3 +11,7 @@ Each example folder has the following structure:
 - power/ folder has the mean power trace for the experiment
 - aca/ folder contains the output result of the non-specific ACA for the experiment
 - nga/ folder contains the scripts and outputs of netlist graph analysis
+
+## References
+
+[1] P. Kiaei, and P. Schaumont, “SoC Root Canal! Root Cause Analysis of Power Side-Channel Leakage in System-on-Chip Designs,” in IACR Transactions on Cryptographic Hardware and Embedded Systems, TCHES 2022. 
