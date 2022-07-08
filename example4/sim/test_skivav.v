@@ -365,23 +365,7 @@ initial begin
   $display("testbench info: uut test start: %t",$time);
   wait(gpio[0]===1'b0); // gpio low shows test finished
   $display("testbench info: uut test end: %t",$time);
-  wait(gpio[0]===1'b1); // gpio high shows ct copied
-  ct[127:96] = {`RAM_DATA_BLK03[CT_ADDRESS],`RAM_DATA_BLK02[CT_ADDRESS],`RAM_DATA_BLK01[CT_ADDRESS],`RAM_DATA_BLK00[CT_ADDRESS]};
-  ct[95:64] = {`RAM_DATA_BLK03[CT_ADDRESS+1],`RAM_DATA_BLK02[CT_ADDRESS+1],`RAM_DATA_BLK01[CT_ADDRESS+1],`RAM_DATA_BLK00[CT_ADDRESS+1]};
-  ct[63:32] = {`RAM_DATA_BLK03[CT_ADDRESS+2],`RAM_DATA_BLK02[CT_ADDRESS+2],`RAM_DATA_BLK01[CT_ADDRESS+2],`RAM_DATA_BLK00[CT_ADDRESS+2]};
-  ct[31:0] = {`RAM_DATA_BLK03[CT_ADDRESS+3],`RAM_DATA_BLK02[CT_ADDRESS+3],`RAM_DATA_BLK01[CT_ADDRESS+3],`RAM_DATA_BLK00[CT_ADDRESS+3]};
-
-  if (ct !== `AES_CIPHERTEXT) begin 
-  $display("Ciphertext ERROR - expected %x", `AES_CIPHERTEXT);
-  $display("read %x", ct);
-  //$display("ct directly from coprocessor %x", ct_dir_coproc);
-  end else begin
-  $display("expected %x", `AES_CIPHERTEXT);
-  $display("read %x", ct);
-  //$display("ct directly from coprocessor %x", ct_dir_coproc);
-  $display("Ciphertext CORRECT");
-  end
-  
+  wait(gpio[0]===1'b1); // gpio high shows ct copied  
   $finish;
 end
 
