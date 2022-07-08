@@ -14,4 +14,4 @@ Each example folder has the following structure:
 
 ## References
 
-[1] P. Kiaei, and P. Schaumont, “SoC Root Canal! Root Cause Analysis of Power Side-Channel Leakage in System-on-Chip Designs,” in IACR Transactions on Cryptographic Hardware and Embedded Systems, TCHES 2022. 
+P. Kiaei, and P. Schaumont, “SoC Root Canal! Root Cause Analysis of Power Side-Channel Leakage in System-on-Chip Designs,” in IACR Transactions on Cryptographic Hardware and Embedded Systems, TCHES 2022. 
