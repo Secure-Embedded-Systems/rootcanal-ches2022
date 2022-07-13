@@ -12,7 +12,7 @@ REPORT= False
 aca_results_file = '../../../aca/bit1/direct_red/combinedresults-sum.yaml'
 correlation_or_welcht = 'welcht'
 pc_log_dir = '../../../sim/pc_log/direct_red/'
-assembly_file = '../../../sim/software/direct_red/present_hiding.dump'
+assembly_file = '../../../sim/software/direct_red/present_directred.dump'
 FREQ = 5e7 # 50MHz
 pc_log_timescale = 1e-12
 
