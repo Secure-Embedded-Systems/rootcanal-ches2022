@@ -12,7 +12,7 @@ REPORT= False
 aca_results_file = '../../../aca/bit0/unprotected/combinedresults-sum.yaml'
 correlation_or_welcht = 'welcht'
 pc_log_dir = '../../../sim/pc_log/unprotected/'
-assembly_file = '../../../sim/software/unprotected/present_hiding.dump'
+assembly_file = '../../../sim/software/unprotected/present_unprotected.dump'
 FREQ = 5e7 # 50MHz
 pc_log_timescale = 1e-12
 
