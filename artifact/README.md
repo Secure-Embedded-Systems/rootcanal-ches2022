@@ -38,9 +38,9 @@ To run the RootCanal on your design, the following files are required:
 
 **Setup:**  
 To run NGA on your design, first the following scripts should be adjusted according to the design.  
-- generate_graph.py: In the current form, this code can generate the graph from a gate-level netlist synthesized for SkyWater 130nm standard cell library. Set the variable `MAIN_MODULE` to the name of the top-level module. 
+- `nga/generate_graph.py`: In the current form, this code can generate the graph from a gate-level netlist synthesized for SkyWater 130nm standard cell library and is used by `nga/nga.py`. Set the variable `MAIN_MODULE` to the name of the top-level module. 
 
-- nga.py: set the following variables    
+- `nga/nga.py`: set the following variables    
 	- `ACA_RESULTS_FILE`: set to the ACA output file  
 	- `PC_LOG_DIR`: set to the PC log file  
 	- `ASSEMBLY_FILE`: the disassmebly file of the software program  
