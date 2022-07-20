@@ -1,7 +1,7 @@
 # RootCanal  
 This repository contains the files and results of the experiments in RootCanal paper at TCHES 2022.
 
-## Organization  
+## Experiments  
 Each example folder has the following structure:
 - `rtl/` folder contains the hardware design files
 - `synth/` folder contains the post-synthesis gate-level netlist and the gate to RTL mapping files
