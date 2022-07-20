@@ -1,0 +1,10 @@
+	addi	zero,zero,0
+	addi	zero,zero,0
+	addi	zero,zero,0
+	addi	zero,zero,0
+	auipc	ra,0x0
+	jalr	ra,0(ra)
+	addi	zero,zero,0
+	addi	zero,zero,0
+	addi	zero,zero,0
+	addi	zero,zero,0
