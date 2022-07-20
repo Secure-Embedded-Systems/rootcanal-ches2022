@@ -16,7 +16,7 @@ Each example folder has the following structure:
 
 ### **Step 1: Finding Leaky Time-Gate Tuples**
 
-The first step of RootCanal, will find the leaky time-gate tuples. This step includes synthesizing the design to generate the gate-level netlist, run gate-level simulation on the design, and simulate power consumption traces. ACA then finds the leaky time-gate tuples. 
+The first step of RootCanal, will find the leaky time-gate tuples. This step includes synthesizing the design to generate the gate-level netlist, running gate-level simulation on the design, and simulating power consumption traces. ACA (https://arxiv.org/abs/2204.11972) is then used to find the leaky time-gate tuples.  
 *This step of RootCanal is not open source.*
 
 ### **Steps 2, 3: Finding Leaky Units and Instructions**
