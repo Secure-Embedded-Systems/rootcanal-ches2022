@@ -11,7 +11,7 @@ DEBUG = False
 REPORT= False
 ACA_RESULTS_FILE = '../aca/combinedresults-sum.yaml'
 PC_LOG_DIR = '../sim/pc_log/'
-ASSEMBLY_FILE = '../sim/software/aes_hw.dump'
+ASSEMBLY_FILE = '../sim/software/binaries/aes_hw.dump'
 FREQ = 5e7 # 50MHz
 PC_LOG_TIMESCALE = 1e-12
 
